@@ -1,15 +1,20 @@
 function search() {
     var seArch = prompt("Search Mobile Phones");
-    var mobilePhonesData = {
-        Pro13: {
+    var apple = {
             name: "Apple iPhone 13 Pro Max",
             display: "6.7 inches (17.02 cm)",
             battery: "4500 mAh",
             colors: ["black", "white", "Gold"],
-            ram: "6GB",
-        }
+            ram: "6GB"
     };
-    console.log(mobilePhonesData.Pro13[seArch]);
+    var samsung ={
+        name: "Samsung Galaxy Z Fold3 5G",
+        display: "7.6' 1768x2208 pixels",
+        battery:"4400mAh",
+        colors: ["black", "white", "Gold"],
+        ram: "6GB"
+    };
+    // console.log(aPPle.Pro13[seArch]);
 }
 
 
