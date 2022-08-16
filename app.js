@@ -60,16 +60,11 @@ function search() {
     };
     console.log(mobilePhones[seArch]);
 
-    var text1 = document.getElementById("text-1");
-    var h6 = document.createElement("h6");
-    var text = document.createTextNode(text1);
-    h6.appendChild(text);
-    document.getElementById("text-1").appendChild(h6);
 }
-
-// var iphone = {
-//     name: "my iphone",
-//     price: 12554,
-// };
-
-// console.log(iphone[search]);
+/*
+var text1 = document.getElementById("text-1").value;
+var h6 = document.createElement("h6");
+var text = document.createTextNode(text1);
+h6.appendChild(text);
+document.getElementById("text_area_1").appendChild(h6);
+*/
