@@ -61,6 +61,7 @@ function search() {
     console.log(mobilePhones[seArch]);
 
 }
+
 /*
 var text1 = document.getElementById("text-1").value;
 var h6 = document.createElement("h6");
